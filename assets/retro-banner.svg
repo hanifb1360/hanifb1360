@@ -1,0 +1,36 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg {
+      fill: #000000;
+    }
+    .title {
+      font-family: 'Lucida Console', Monaco, monospace;
+      font-size: 22px;
+      fill: #00ffff;
+      animation: flicker 2s infinite;
+    }
+    .subtext {
+      font-family: 'Lucida Console', Monaco, monospace;
+      font-size: 14px;
+      fill: #00ffff;
+      opacity: 0.85;
+    }
+
+    @keyframes flicker {
+      0%   { opacity: 0.92; transform: translateY(0px); }
+      50%  { opacity: 0.6;  transform: translateY(-1px); }
+      100% { opacity: 0.92; transform: translateY(0px); }
+    }
+  </style>
+
+  <rect class="bg" width="800" height="200"/>
+  <text x="50%" y="35%" text-anchor="middle" class="title">
+    Web Developer. Code Crafter. Design-Driven.
+  </text>
+  <text x="50%" y="60%" text-anchor="middle" class="subtext">
+    React · JavaScript · TypeScript · Node.js · WordPress · Redux
+  </text>
+  <text x="50%" y="75%" text-anchor="middle" class="subtext">
+    Functional. Beautiful. Retro-Futuristic.
+  </text>
+</svg>
